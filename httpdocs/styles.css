@@ -388,11 +388,58 @@ details p {
 
 @media (max-width: 560px) {
   body { font-size: 16px; }
-  .site-header { width: min(100% - 22px, var(--max)); }
+  .site-header {
+    width: min(100% - 22px, var(--max));
+    padding: 12px 0;
+  }
+
+  .brand img {
+    width: 38px;
+    height: 38px;
+  }
 
   .section {
     width: min(100% - 22px, var(--max));
-    padding: 52px 0;
+    padding: 44px 0;
+  }
+
+  .hero {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    gap: 18px;
+  }
+
+  .hero-visual {
+    min-height: 176px;
+  }
+
+  .app-icon {
+    width: min(48%, 180px);
+  }
+
+  .eyebrow {
+    margin-bottom: 9px;
+    font-size: 0.68rem;
+  }
+
+  h1 {
+    font-size: 2.16rem;
+    line-height: 1.04;
+    margin-bottom: 16px;
+  }
+
+  .lead {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .cta-row {
+    gap: 10px;
+    margin: 20px 0 12px;
+  }
+
+  .button {
+    min-height: 46px;
   }
 
   .cards { grid-template-columns: 1fr; }
@@ -400,6 +447,13 @@ details p {
   .platform-section { padding: 28px 20px; }
   .cta-row { flex-direction: column; }
   .button { width: 100%; }
+  .hero .cta-row { flex-direction: row; }
+  .hero .button {
+    flex: 1 1 0;
+    width: auto;
+    min-height: 44px;
+    padding: 0 12px;
+  }
   .site-footer { flex-direction: column; }
 }
 
