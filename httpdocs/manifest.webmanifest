@@ -1,0 +1,21 @@
+{
+  "name": "ChordJungle",
+  "short_name": "ChordJungle",
+  "description": "Find your way through chords, lyrics, and setlists.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#03140d",
+  "theme_color": "#032014",
+  "icons": [
+    {
+      "src": "assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/chordjungle-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
