@@ -89,12 +89,13 @@ a { color: inherit; }
 }
 
 .hero {
-  min-height: calc(100vh - 82px);
+  min-height: calc(100svh - 150px);
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
   align-items: center;
   gap: 56px;
-  padding-top: 48px;
+  padding-top: 36px;
+  padding-bottom: 48px;
 }
 
 .eyebrow {
@@ -374,15 +375,14 @@ details p {
 
   .hero {
     min-height: auto;
-    padding-top: 42px;
+    padding-top: 28px;
   }
 
   .hero-visual {
-    min-height: 340px;
-    order: -1;
+    min-height: 260px;
   }
 
-  .app-icon { width: min(74%, 340px); }
+  .app-icon { width: min(62%, 280px); }
   .section { padding: 62px 0; }
 }
 
