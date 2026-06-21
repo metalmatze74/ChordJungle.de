@@ -56,3 +56,14 @@ details.forEach((detail) => {
     }
   });
 });
+
+document.querySelectorAll("[data-copy-template]").forEach((button) => {
+  button.addEventListener("click", async () => {
+    const template = document.getElementById(button.dataset.copyTemplate);
+    if (!template || !navigator.clipboard) return;
+    await navigator.clipboard.writeText(template.textContent.trim());
+    const originalText = button.textContent;
+    button.textContent = "Kopiert";
+    setTimeout(() => { button.textContent = originalText; }, 1800);
+  });
+});
