@@ -60,8 +60,28 @@ details.forEach((detail) => {
 document.querySelectorAll("[data-copy-template]").forEach((button) => {
   button.addEventListener("click", async () => {
     const template = document.getElementById(button.dataset.copyTemplate);
-    if (!template || !navigator.clipboard) return;
-    await navigator.clipboard.writeText(template.textContent.trim());
+    if (!template) return;
+    const text = template.textContent.trim();
+    let copied = false;
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        copied = true;
+      } catch {
+        copied = false;
+      }
+    }
+    if (!copied) {
+      const fallback = document.createElement("textarea");
+      fallback.value = text;
+      fallback.setAttribute("readonly", "");
+      fallback.style.position = "fixed";
+      fallback.style.opacity = "0";
+      document.body.append(fallback);
+      fallback.select();
+      document.execCommand("copy");
+      fallback.remove();
+    }
     const originalText = button.textContent;
     button.textContent = "Kopiert";
     setTimeout(() => { button.textContent = originalText; }, 1800);
