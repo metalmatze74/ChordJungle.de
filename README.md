@@ -1,6 +1,6 @@
 # ChordJungle Static Website
 
-Statische Ankündigungsseite für ChordJungle.
+Statische Website für ChordJungle.
 
 ## Enthalten
 
@@ -19,11 +19,13 @@ Die Seite wurde mit dem aktuellen App-Repo abgeglichen. Der Text berücksichtigt
 - Songs erstellen und bearbeiten
 - Setlisten erstellen
 - Stage Mode
-- OnSong-Import vorhandener Songs und Setlisten
+- lokaler Text-, OnSong- und ChordPro-Dateiimport
 - Backup und Restore
 - Lokale Übertragung zwischen Geräten
 - Optionale Nextcloud/WebDAV-Funktionen
-- Zielplattformen iOS, Android, macOS, Windows und Linux
+- Community-Songbuch über Nextcloud/WebDAV
+- Metronom, aktive Setliste, Fußpedal-/Tastatursteuerung, Diagnose und Beta-Feedback
+- Zielplattformen Android, iPhone, iPad sowie ausgewählte macOS-, Windows- und Linux-Beta-Builds
 
 ## Rechtliches
 

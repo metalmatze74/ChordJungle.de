@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="de">
+<html class="manual-root" lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ChordJungle Handbuch – Hilfe zu Songs, Setlisten, Import, Stage Mode und Backup</title>
-  <meta name="description" content="Das deutsche ChordJungle Handbuch erklärt Songs, Import, Setlisten, Stage Mode, Metronom, Backup, Sync, Local Transfer und Beta-Feedback Schritt für Schritt.">
+  <title>ChordJungle Handbuch – Hilfe zu Songs, Setlisten, Import, Stage Mode, Community und Backup</title>
+  <meta name="description" content="Das deutsche ChordJungle Handbuch erklärt Songs, Import, Setlisten, Stage Mode, Metronom, Backup, Sync, Community-Songbuch, Local Transfer und Beta-Feedback Schritt für Schritt.">
   <meta name="theme-color" content="#032014">
   <meta property="og:title" content="ChordJungle Handbuch">
   <meta property="og:description" content="Hilfe für die ChordJungle Beta: Songs, Setlisten, Bühne, Backup und Sync.">
@@ -31,7 +31,7 @@
 
   <main class="manual-main">
     <section class="section manual-container manual-hero">
-      <p class="eyebrow">Beta-Handbuch · App-Build 0.2.0+4</p>
+      <p class="eyebrow">Beta-Handbuch · App-Build 0.2.0+7</p>
       <h1>ChordJungle Handbuch</h1>
       <p class="lead">Kurze, praktische Hilfe für Songs, Setlisten und den Weg auf die Bühne – mit ehrlichen Hinweisen zum aktuellen Beta-Stand.</p>
       <div class="cta-row">
@@ -64,29 +64,30 @@
         <a href="#metronom"><span>06</span>Metronom</a>
         <a href="#backup"><span>07</span>Backup &amp; Wiederherstellung</a>
         <a href="#sync-transfer"><span>08</span>Sync &amp; Transfer</a>
-        <a href="#einstellungen"><span>09</span>Einstellungen</a>
-        <a href="#fehlerbehebung"><span>10</span>Fehlerbehebung</a>
-        <a href="#feedback"><span>11</span>Feedback</a>
+        <a href="#community-songbuch"><span>09</span>Community-Songbuch</a>
+        <a href="#einstellungen"><span>10</span>Einstellungen</a>
+        <a href="#fehlerbehebung"><span>11</span>Fehlerbehebung</a>
+        <a href="#feedback"><span>12</span>Feedback</a>
       </div>
     </nav>
 
     <section class="section manual-container manual-section manual-chapter" id="erste-schritte">
       <div class="manual-heading"><p class="eyebrow">01 · Erste Schritte</p><h2>Deine Bibliothek bleibt auf deinem Gerät.</h2></div>
-      <p>In der Navigation findest du Songs, Setlisten, optionalen Sync und Einstellungen. Lesen, Bearbeiten und Stage Mode funktionieren grundsätzlich ohne Internet. Im Rohtext-Editor bearbeitest du Titel, Interpret und Ausgangstext; die Vorschau bereitet Akkorde und Strukturangaben lesbar auf, ohne den Rohtext umzuschreiben.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-01-songs-overview.png" alt="Songübersicht mit synthetischen Demo-Songs auf einem iPad" width="1668" height="2420" loading="lazy"><figcaption>Songübersicht mit synthetischen Demo-Songs auf dem iPad.</figcaption></figure>
+      <p>In der Navigation findest du Songs, Setlisten, optionale Sync-/Community-Funktionen und Einstellungen. Lesen, Bearbeiten und Stage Mode funktionieren grundsätzlich ohne Internet. Im Rohtext-Editor bearbeitest du Titel, Interpret und Ausgangstext; die Vorschau bereitet Akkorde und Strukturangaben lesbar auf, ohne den Rohtext umzuschreiben.</p>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-01-songs-overview.png" alt="Songübersicht mit synthetischen Demo-Songs auf einem iPad" width="1668" height="2420"><figcaption>Songübersicht mit synthetischen Demo-Songs auf dem iPad.</figcaption></figure>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="songs">
       <div class="manual-heading"><p class="eyebrow">02 · Songs</p><h2>Songs anlegen, lesen und aufräumen.</h2></div>
       <ol><li>Songs öffnen und auf <strong>+</strong> tippen.</li><li><strong>Leeren Song erstellen</strong> wählen.</li><li>Titel, Interpret und bei Bedarf Tonart, Tempo oder Taktart eintragen.</li><li>Text im Rohtext-Editor einfügen, speichern und die Vorschau prüfen.</li></ol>
       <p>Die Textgröße der Vorschau lässt sich mit zwei Fingern anpassen und wird für den Song gespeichert. Songs können gelöscht oder – wenn sie noch in Setlisten verwendet werden – archiviert werden.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-04-demo-song-editor.png" alt="Rohtext-Editor mit synthetischem Demo-Song" width="1668" height="2420" loading="lazy"><figcaption>Der Rohtext-Editor bleibt die Grundlage für spätere Korrekturen.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-04-demo-song-editor.png" alt="Rohtext-Editor mit synthetischem Demo-Song" width="1668" height="2420"><figcaption>Der Rohtext-Editor bleibt die Grundlage für spätere Korrekturen.</figcaption></figure>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="import">
       <div class="manual-heading"><p class="eyebrow">03 · Import</p><h2>Lokale Songdateien bewusst übernehmen.</h2></div>
       <p>Unter <strong>Songs → + → Aus Datei importieren</strong> eine Datei wählen, Titel und Rohtext prüfen und erst dann speichern. Unterstützt werden UTF-8-Textdateien wie <code>.txt</code>, <code>.onsong</code>, <code>.chordpro</code>, <code>.chopro</code>, <code>.cho</code>, <code>.crd</code>, <code>.pro</code> und <code>.chord</code>. PDFs und Medien-Dateien sind kein Einzeldatei-Import dieser Beta.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-03-import-file-entry.png" alt="Dateiimport in ChordJungle auf einem iPad" width="1668" height="2420" loading="lazy"><figcaption>Dateiimport auf dem iPad. Auf Smartphones kann die Darstellung abweichen.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-03-import-file-entry.png" alt="Dateiimport in ChordJungle auf einem iPad" width="1668" height="2420"><figcaption>Dateiimport auf dem iPad. Auf Smartphones kann die Darstellung abweichen.</figcaption></figure>
       <aside class="manual-callout"><strong>SongSelect: manueller Ablauf.</strong> SongSelect im Browser öffnen, dort – falls verfügbar – eine ChordPro-Datei herunterladen und diese lokale Datei in ChordJungle importieren. ChordJungle verbindet sich nicht direkt mit SongSelect und bietet keine SongSelect-Anmeldung. Die Nutzung muss durch deine SongSelect-/CCLI-Lizenz gedeckt sein.</aside>
     </section>
 
@@ -94,27 +95,27 @@
       <div class="manual-heading"><p class="eyebrow">04 · Setlisten</p><h2>Reihenfolge für Probe und Bühne vorbereiten.</h2></div>
       <p>Eine Setliste anlegen, klar benennen, Songs hinzufügen und in die gewünschte Reihenfolge bringen. Ein Song darf mehrfach vorkommen: Jede Stelle ist ein eigener Eintrag und kann eigene Notizen, Tempo- oder Transpositionsangaben haben.</p>
       <p id="aktive-setliste"><strong>Aktive Setliste</strong> führt zur aktuell ausgewählten Setliste und ihrem laufenden Song-Kontext zurück. Die allgemeine Ansicht <strong>Setlisten</strong> öffnet dagegen die Übersicht aller Listen.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-06-setlist-overview.png" alt="Setlistenübersicht mit synthetischer Demo-Setliste" width="1668" height="2420" loading="lazy"><figcaption>Setlistenübersicht mit einer synthetischen Demo-Setliste.</figcaption></figure>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-07-setlist-items.png" alt="Einträge einer Demo-Setliste in ihrer Reihenfolge" width="1668" height="2420" loading="lazy"><figcaption>Einträge der Demo-Setliste in ihrer Reihenfolge.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-06-setlist-overview.png" alt="Setlistenübersicht mit synthetischer Demo-Setliste" width="1668" height="2420"><figcaption>Setlistenübersicht mit einer synthetischen Demo-Setliste.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-07-setlist-items.png" alt="Einträge einer Demo-Setliste in ihrer Reihenfolge" width="1668" height="2420"><figcaption>Einträge der Demo-Setliste in ihrer Reihenfolge.</figcaption></figure>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="stage-mode">
       <div class="manual-heading"><p class="eyebrow">05 · Stage Mode</p><h2>Fokussiert, wenn es darauf ankommt.</h2></div>
-      <p>Öffne eine Setliste oder einen Setlisten-Eintrag und starte den Stage Mode. Wischen oder sichtbare Steuerelemente navigieren durch die Song-Reihenfolge; ein Tipp in die Mitte blendet Steuerelemente im Vollbild ein oder aus. Über Zurück oder Schließen kehrst du zum aktuellen Song-Kontext zurück.</p>
+      <p>Öffne eine Setliste oder einen Setlisten-Eintrag und starte den Stage Mode. Wischen, sichtbare Steuerelemente oder konfigurierte Hardwaretasten/Fußpedale navigieren durch die Song-Reihenfolge; ein Tipp in die Mitte blendet Steuerelemente im Vollbild ein oder aus. Über Zurück oder Schließen kehrst du zum aktuellen Song-Kontext zurück.</p>
       <aside class="manual-callout manual-callout--warning"><strong>Vor dem Auftritt:</strong> Gerät laden, die richtige Setliste vorher öffnen und Navigation sowie Metronom auf dem tatsächlichen Gerät testen.</aside>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-10-stage-mode-landscape.png" alt="Stage Mode mit synthetischem Demo-Song im iPad-Querformat" width="1668" height="2420" loading="lazy"><figcaption>Stage Mode mit synthetischem Demo-Song im iPad-Querformat.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-10-stage-mode-landscape.png" alt="Stage Mode mit synthetischem Demo-Song im iPad-Querformat" width="1668" height="2420"><figcaption>Stage Mode mit synthetischem Demo-Song im iPad-Querformat.</figcaption></figure>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="metronom">
       <div class="manual-heading"><p class="eyebrow">06 · Metronom</p><h2>Tempo sichtbar und optional hörbar halten.</h2></div>
       <p>Hinterlege Tempo und bei Bedarf Taktart für Song oder Setlisten-Eintrag, dann starte das Metronom im Song- oder Stage-Kontext. Ton, Lautstärke, visuelle Stärke und Vibration sind in den Einstellungen anpassbar. Prüfe Medienlautstärke, Lautlosmodus und Bluetooth-Ausgabe; Bluetooth-Verzögerungen sind geräteabhängig.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-11-metronome-settings.png" alt="Einstieg zu den Metronom-Einstellungen auf dem iPad" width="1668" height="2420" loading="lazy"><figcaption>Einstieg zu den Metronom-Einstellungen auf dem iPad.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-11-metronome-settings.png" alt="Einstieg zu den Metronom-Einstellungen auf dem iPad" width="1668" height="2420"><figcaption>Einstieg zu den Metronom-Einstellungen auf dem iPad.</figcaption></figure>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="backup">
       <div class="manual-heading"><p class="eyebrow">07 · Backup &amp; Wiederherstellung</p><h2>Backup ist nicht Sync.</h2></div>
       <p>Ein Backup ist eine vollständige Momentaufnahme deiner lokalen Songbibliothek und Setlisten. Unter <strong>Einstellungen → Backup &amp; Wiederherstellung</strong> kannst du eine Datei sichern und später bewusst wiederherstellen. Eine Wiederherstellung ersetzt die lokale Bibliothek und startet niemals automatisch einen Sync.</p>
-      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-12-backup-restore.png" alt="Einstieg zu Backup und Wiederherstellung in den Einstellungen" width="1668" height="2420" loading="lazy"><figcaption>Einstieg zu Backup und Wiederherstellung in den Einstellungen.</figcaption></figure>
+      <figure class="manual-screenshot"><img src="assets/img/manual/tablet-12-backup-restore.png" alt="Einstieg zu Backup und Wiederherstellung in den Einstellungen" width="1668" height="2420"><figcaption>Einstieg zu Backup und Wiederherstellung in den Einstellungen.</figcaption></figure>
       <aside class="manual-callout manual-callout--warning"><strong>Für Beta-Tester:</strong> Wiederherstellung vor einem Live-Einsatz mit Testdaten ausprobieren. Geräteeinstellungen und Zugangsdaten sind nicht Teil des Backups.</aside>
     </section>
 
@@ -127,24 +128,33 @@
       <aside class="manual-callout">Für aktive Setliste, lokale Übertragung und detaillierte Sync-Dialoge gibt es noch keine veröffentlichungsreife Screenshot-Aufnahme. Deshalb zeigt das Handbuch bewusst kein Ersatzbild.</aside>
     </section>
 
+    <section class="section manual-container manual-section manual-chapter" id="community-songbuch">
+      <div class="manual-heading"><p class="eyebrow">09 · Community-Songbuch</p><h2>Kuratierte Repertoires getrennt vom privaten Sync.</h2></div>
+      <p>Das Community-Songbuch ist für Gruppen gedacht, die ein gemeinsames, kuratiertes Repertoire über Nextcloud/WebDAV verwenden möchten. Lokale Songs bleiben privat; nichts wird automatisch veröffentlicht oder importiert. Vorschläge, Freigaben, Archivieren und Wiederherstellen sind bewusste Aktionen und richten sich nach den tatsächlichen Rechten im verbundenen Community-Ordner.</p>
+      <p>Eine Community-Verbindung nutzt eigene Zugangsdaten und einen eigenen Root-Pfad. Sie ist getrennt vom persönlichen Nextcloud-Sync und kann ein anderes Konto, andere Rechte und eigene CCLI-/SongSelect-Metadaten verwenden.</p>
+      <aside class="manual-callout manual-callout--warning"><strong>Wichtig:</strong> Das Community-Songbuch ersetzt keine Lizenzprüfung. Prüfe vor dem Einreichen oder Freigeben, ob Nutzung, CCLI-Nummern und SongSelect-Quellen durch die jeweilige Community-Lizenz gedeckt sind.</aside>
+      <aside class="manual-callout">Für das Community-Songbuch gibt es noch keine veröffentlichungsreife Screenshot-Aufnahme auf der Website. Deshalb zeigt das Handbuch bewusst kein Ersatzbild.</aside>
+    </section>
+
     <section class="section manual-container manual-section manual-chapter" id="einstellungen">
-      <div class="manual-heading"><p class="eyebrow">09 · Einstellungen</p><h2>Darstellung, Daten und Diagnose.</h2></div>
-      <p>Die Einstellungen gruppieren Sprache und Darstellung, Stage Mode, Töne und Metronom, Backup &amp; Wiederherstellung, Nextcloud Sync, lokale Übertragung sowie Diagnose &amp; Info. Nicht jede Option ist auf jedem Gerät gleich relevant.</p>
+      <div class="manual-heading"><p class="eyebrow">10 · Einstellungen</p><h2>Darstellung, Daten und Diagnose.</h2></div>
+      <p>Die Einstellungen gruppieren Sprache und Darstellung, Stage Mode, Töne und Metronom, Fußpedal/Tastatursteuerung, Backup &amp; Wiederherstellung, Nextcloud Sync, lokale Übertragung, Community-Songbuch sowie Diagnose &amp; Info. Nicht jede Option ist auf jedem Gerät gleich relevant.</p>
       <aside class="manual-callout manual-callout--warning"><strong>Lokale Daten zurücksetzen:</strong> Diese bewusst bestätigte Aktion löscht Song- und Setlistdaten auf diesem Gerät, erzeugt aber keine Cloud-Löschungen. Vorher ein Backup erstellen, falls Daten erhalten bleiben sollen.</aside>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="fehlerbehebung">
-      <div class="manual-heading"><p class="eyebrow">10 · Fehlerbehebung</p><h2>Die häufigsten Stolpersteine.</h2></div>
+      <div class="manual-heading"><p class="eyebrow">11 · Fehlerbehebung</p><h2>Die häufigsten Stolpersteine.</h2></div>
       <div class="manual-faq">
         <details><summary>Import sieht falsch aus</summary><p>Rohtext-Editor prüfen: Die Datei sollte UTF-8-Text mit unterstützter Endung sein. Nicht unterstützte Direktiven können in der Vorschau ausgeblendet werden, der Rohtext bleibt erhalten.</p></details>
         <details><summary>Sync oder Transfer funktioniert nicht</summary><p>Adresse, Zugangsdaten und Ordnerpfad prüfen. Für lokale Übertragung müssen beide Geräte im selben vertrauenswürdigen Netzwerk sein; Gast-WLAN, Hotspots und Firewalls können die Suche blockieren.</p></details>
+        <details><summary>Community-Songbuch ist leer oder nicht nutzbar</summary><p>Prüfe Nextcloud/WebDAV-Adresse, Root-Pfad, Zugangsdaten und Ordnerrechte. Für Vorschläge, Freigaben oder Archiv-Aktionen braucht das Konto passende Schreibrechte auf incoming/, published/ oder archive/.</p></details>
         <details><summary>Backup lässt sich nicht wiederherstellen</summary><p>Eine vollständige ChordJungle-Backup-Datei verwenden und bei Bedarf eine andere bekannte Sicherung testen. Die App-Version in einen Fehlerbericht aufnehmen.</p></details>
         <details><summary>Metronom ist nicht hörbar</summary><p>Akustischen Tick, Medienlautstärke, Lautlosmodus und Bluetooth-Ausgabe prüfen. Das visuelle Metronom kann dennoch funktionieren.</p></details>
       </div>
     </section>
 
     <section class="section manual-container manual-section manual-chapter" id="feedback">
-      <div class="manual-heading"><p class="eyebrow">11 · Beta-Feedback</p><h2>Ein guter Bericht spart allen Zeit.</h2></div>
+      <div class="manual-heading"><p class="eyebrow">12 · Beta-Feedback</p><h2>Ein guter Bericht spart allen Zeit.</h2></div>
       <p>Feedback kannst du über <strong>Einstellungen → Diagnose &amp; Info → Feedback senden</strong> senden. Beschreibe Plattform, Gerät, App-Version, Schritte, erwartetes und tatsächliches Ergebnis. Ein Screenshot oder kurzes Video hilft sehr.</p>
       <div class="manual-feedback-template"><button class="copy-template" type="button" data-copy-template="feedback-vorlage">Vorlage kopieren</button><pre id="feedback-vorlage">Gerät:
 Betriebssystem:
@@ -154,7 +164,7 @@ Was ist passiert?
 Was hätte ich erwartet?
 Kann ich es reproduzieren?
 Screenshot/Video vorhanden?
-Betrifft es Import, Sync, Backup, Stage Mode oder Transfer?</pre></div>
+Betrifft es Import, Sync, Community-Songbuch, Backup, Stage Mode, Fußpedal oder Transfer?</pre></div>
       <aside class="manual-callout manual-callout--warning"><strong>Datenschutz und Urheberrecht:</strong> Bitte keine Passwörter, Sync-Zugangsdaten, privaten URLs oder urheberrechtlich geschützten Liedtexte senden, sofern es nicht zwingend nötig und erlaubt ist.</aside>
     </section>
   </main>
